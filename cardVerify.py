@@ -64,6 +64,7 @@ def sum_digits(digit):
 
 
 def validateNumber(cc_num):
+    print(cc_num)
     # reverse the credit card number
     cc_num = cc_num[::-1]
     # convert to integer list
@@ -134,7 +135,7 @@ def checkCardValidity(cardName, cardNumber, cardCvv,cardExpiry):
 if __name__ == "__main__":
 
     cardName = "Akash Parvatikar"
-    cardNumber = "79927398713"
+    cardNumber = "79927395"
     cardCvv = "388"
     cardExpiry = "07/20"
 
